@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Karla:wght@300&family=Roboto+Slab:wght@300&display=swap");
+
+/* font-family: 'Bruno Ace SC', cursive;
+font-family: 'Karla', sans-serif;
+font-family: 'Roboto Slab', serif;
+ */
+/* #a7beae*/
+
+/* Knockout Pink (#FF3EA5FF), Safety Yellow (#EDFF00FF) and Out of the Blue (#00A4CCFF) */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.color {
+  color: #b85043;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #b85043;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.tab {
+  margin-right: 3rem;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #e6e8d2;
+  font-family: "Bruno Ace SC", cursive;
+}
+
+.card {
+  width: 200px;
+}
+
+.assignment {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2rem;
+  width: 100%;
+  height: 82vh;
+  justify-content: space-evenly;
+  align-content: space-around;
+}

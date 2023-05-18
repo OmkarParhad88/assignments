@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark-pink: #c86364;
+}
+
+.mainCon {
+  margin: 1vw auto;
+  width: 1181px;
+  height: 1300px;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+}
+
+hr {
+  margin: 10px !important;
+ /* /* height: 1px;   */
+  border: 0.3px solid black !important;
+}
+.techTitle{
+  margin: 0;
+}
+.mainCon img {
+  border-radius: 12px;
+  width: 68%;
+  margin: 10%;
+}
+.left {
+  width: 492px;
+}
+
+.contacts {
+  width: 100%;
+  min-height: 21rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.color {
+  color: var(--dark-pink) !important;
+}
+
+.bg-color {
+  background-color: var(--dark-pink) !important;
+}
+.tech {
+  margin-left: 1vw;
+}
+
+.name {
+  color: white;
+  padding: 7px;
+  background-color: var(--dark-pink);
+  margin: 20px 0 5px 50px;
+}
+
+h3 hr {
+  margin-left: 0;
+  width: 350px;
+}
+.year {
+  display: flex;
+  justify-content: space-between;
+}
